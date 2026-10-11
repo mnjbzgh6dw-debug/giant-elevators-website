@@ -41,3 +41,12 @@ Old Mweb site: files in httpdocs, IP 102.65.21.221 (a one-page "Welcome to Giant
 
 To go back to the form version: `git revert 4c233e3` then `git push`.
 The form posted to a mailto: link, which browsers flag as "not secure".
+
+## Edit screens captured before any change (screenshots saved in this folder)
+
+- before-A-record-edit-screen.png
+  Record type A, Domain name blank (the main domain), TTL blank, IP address 102.65.21.221
+- before-www-CNAME-edit-screen.webp
+  Record type CNAME, Domain name www, TTL blank, Canonical name giantelevators.co.za (trailing dot added by Plesk)
+
+TTL was blank on both, meaning the Plesk default was in use. When reverting, leave TTL blank.
