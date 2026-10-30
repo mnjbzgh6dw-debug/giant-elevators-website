@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <title>Giant Elevators</title>
+  <rect width="512" height="512" rx="104" fill="#ffffff"/>
+  <path d="M232 212 A62 75 0 1 0 243 256 L190 256" fill="none" stroke="#e8392b" stroke-width="40"/>
+  <g fill="#e8392b">
+    <rect x="292" y="161" width="40" height="190"/>
+    <rect x="292" y="161" width="116" height="40"/>
+    <rect x="292" y="236" width="98" height="40"/>
+    <rect x="292" y="311" width="116" height="40"/>
+  </g>
+</svg>
